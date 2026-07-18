@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-100 text-slate-800 antialiased;
+  overflow-x: hidden;
+}
+
+/* Keep font-size >= 16px on inputs so iOS Safari doesn't auto-zoom on focus. */
+input,
+select,
+textarea,
+button {
+  font-size: 16px;
+}
